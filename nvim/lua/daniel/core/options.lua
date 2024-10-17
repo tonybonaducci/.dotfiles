@@ -1,6 +1,6 @@
 
 local opt = vim.opt
-
+local cmd = vim.cmd
 -- Options--
 
 vim.g.mapleader = " "
@@ -8,6 +8,9 @@ vim.g.mapleader = " "
 -- set font
 opt.guifont = "Fira Code Nerd Font:h11"
 
+-- colorscheme
+--opt.background = "dark"
+--cmd("colorscheme oxocarbon")
 -- Line Numbers
 opt.number = true
 opt.numberwidth = 3
